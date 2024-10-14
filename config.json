@@ -1,0 +1,109 @@
+{
+    "nickname": {
+        "text": "rottenfront",
+        "font": "Segoe UI",
+        "color": "#000000"
+    },
+    "entry_time": {
+        "text": "Thu, Nov 11, 2021 8:29 PM",
+        "font": "Times New Roman",
+        "color": "#000000"
+    },
+    "about": {
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "font": "Consolas",
+        "color": "#000000"
+    },
+    "background": {
+        "all": 1
+    },
+    "banners": [
+        {
+            "all": 1
+        },
+        {
+            "all": 2
+        }
+    ],
+    "main_badges": [
+        {
+            "all": 1
+        },
+        {
+            "all": 2
+        }
+    ],
+    "badges": [
+        [
+            "none",
+            {
+                "all": 4
+            },
+            {
+                "all": 5
+            },
+            {
+                "all": 6
+            }
+        ],
+        [
+            {
+                "all": 7
+            },
+            {
+                "all": 8
+            },
+            {
+                "all": 9
+            },
+            {
+                "all": 10
+            }
+        ],
+        [
+            {
+                "all": 11
+            },
+            {
+                "all": 12
+            },
+            {
+                "all": 13
+            },
+            {
+                "all": 14
+            }
+        ],
+        [
+            {
+                "all": 15
+            },
+            {
+                "all": 16
+            },
+            {
+                "all": 17
+            },
+            {
+                "all": 18
+            }
+        ],
+        [
+            {
+                "all": 19
+            },
+            {
+                "all": 20
+            },
+            {
+                "all": 21
+            },
+            {
+                "all": 22
+            }
+        ]
+    ],
+    "frame": {
+        "classic": 1
+    }
+}
