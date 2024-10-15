@@ -22,6 +22,9 @@ pub fn draw_text_blobs(
 ) -> Result<(), Box<dyn std::error::Error>> {
     let x0 = 40.;
     let x1 = 173.;
+    #[cfg(target_os = "windows")]
+    let y0 = 442. - LINE_HEIGHT;
+    #[cfg(not(target_os = "windows"))]
     let y0 = 446. - LINE_HEIGHT;
     let y1 = 479. - LINE_HEIGHT;
     let mut y = 518. - LINE_HEIGHT;
