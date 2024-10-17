@@ -14,96 +14,46 @@
         "font": "Consolas",
         "color": "#000000"
     },
-    "background": {
-        "all": 1
-    },
+    "background": { "all": 1 },
     "banners": [
-        {
-            "all": 1
-        },
-        {
-            "all": 2
-        }
+        { "all": 1 },
+        { "all": 2 }
     ],
     "main_badges": [
-        {
-            "all": 1
-        },
-        {
-            "all": 2
-        }
+        { "all": 1 },
+        { "all": 2 }
     ],
     "badges": [
         [
             "none",
-            {
-                "all": 4
-            },
-            {
-                "all": 5
-            },
-            {
-                "all": 6
-            }
+            { "all": 4 },
+            { "all": 4 },
+            { "all": 4 }
         ],
         [
-            {
-                "all": 7
-            },
-            {
-                "all": 8
-            },
-            {
-                "all": 9
-            },
-            {
-                "all": 10
-            }
+            { "all": 4 },
+            { "all": 4 },
+            { "all": 4 },
+            { "all": 4 }
         ],
         [
-            {
-                "all": 11
-            },
-            {
-                "all": 12
-            },
-            {
-                "all": 13
-            },
-            {
-                "all": 14
-            }
+            { "all": 4 },
+            { "all": 4 },
+            { "all": 4 },
+            { "all": 4 }
         ],
         [
-            {
-                "all": 15
-            },
-            {
-                "all": 16
-            },
-            {
-                "all": 17
-            },
-            {
-                "all": 18
-            }
+            { "all": 4 },
+            "none",
+            { "all": 4 },
+            { "all": 4 }
         ],
         [
-            {
-                "all": 19
-            },
-            {
-                "all": 20
-            },
-            {
-                "all": 21
-            },
-            {
-                "all": 22
-            }
+            { "all": 4 },
+            { "all": 4 },
+            { "all": 4 },
+            { "all": 4 }
         ]
     ],
-    "frame": {
-        "classic": 1
-    }
+    "frame": { "classic": 1 }
 }
