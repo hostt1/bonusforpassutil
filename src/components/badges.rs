@@ -33,12 +33,12 @@ fn draw_common_badges(
     for row in badges {
         let mut x = x0;
         for badge in row {
-            let image = badge.get_image();
-            if let Err(_) = image {
+            if let Badge::none = badge {
                 continue;
             }
-            let image = image.unwrap();
-            let _ = draw_image(rc, image, Rect::from_origin_size((x, y), size));
+            let image = badge.get_image().unwrap();
+            // let image = image.unwrap();
+            draw_image(rc, image, Rect::from_origin_size((x, y), size))?;
 
             x += dx;
         }
@@ -132,7 +132,7 @@ impl ImageEnum for Badge {
     fn get_path(&self) -> String {
         match self {
             Badge::none => "".into(),
-            Badge::achievements(num) => format!("badges/achievments/{}.png", num),
+            Badge::achievements(num) => format!("badges/achievements/{}.png", num),
             Badge::all(num) => format!("badges/all/{}.png", num),
             Badge::anime(num) => format!("badges/anime/{}.png", num),
             Badge::coders(num) => format!("badges/coders/{}.png", num),
