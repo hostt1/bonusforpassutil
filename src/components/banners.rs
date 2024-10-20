@@ -25,19 +25,17 @@ pub fn draw_banners(
 
     'first: {
         let image = banners[0].get_image();
-        if let Err(_) = image {
+        let Ok(image) = image else {
             break 'first;
-        }
-        let image = image.unwrap();
+        };
         draw_image(rc, image, Rect::from_origin_size((x0, y), size))?;
     }
 
     'second: {
         let image = banners[1].get_image();
-        if let Err(_) = image {
+        let Ok(image) = image else {
             break 'second;
-        }
-        let image = image.unwrap();
+        };
         draw_image(rc, image, Rect::from_origin_size((x1, y), size))?;
     }
 

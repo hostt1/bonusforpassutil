@@ -91,7 +91,7 @@ pub fn draw_text_blobs(
                     line_x = x0;
                     x = line_x;
                     y += dy;
-                    is_first_in_line = true;
+                    
                 }
 
                 rc.draw_text(&layout, (x, y));

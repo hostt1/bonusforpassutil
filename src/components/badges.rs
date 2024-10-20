@@ -33,11 +33,10 @@ fn draw_common_badges(
     for row in badges {
         let mut x = x0;
         for badge in row {
-            if let Badge::none = badge {
+            let image = badge.get_image();
+            let Ok(image) = image else {
                 continue;
-            }
-            let image = badge.get_image().unwrap();
-            // let image = image.unwrap();
+            };
             draw_image(rc, image, Rect::from_origin_size((x, y), size))?;
 
             x += dx;
@@ -66,10 +65,9 @@ fn draw_main_badges(
 
     'first: {
         let image = main_badges[0].get_image();
-        if let Err(_) = image {
+        let Ok(image) = image else {
             break 'first;
-        }
-        let image = image.unwrap();
+        };
         draw_image(
             rc,
             image,
@@ -79,10 +77,9 @@ fn draw_main_badges(
 
     'second: {
         let image = main_badges[1].get_image();
-        if let Err(_) = image {
+        let Ok(image) = image else {
             break 'second;
-        }
-        let image = image.unwrap();
+        };
         draw_image(
             rc,
             image,
